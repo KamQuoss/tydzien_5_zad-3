@@ -1,0 +1,9 @@
+3. Menu nawigacyjne
+Napisz komponent NavMenu, który będzie pojawiał się po lewej stronie aplikacji. Komponent będzie zawierał linki nawigacyjne, domyślnie będzie ukryty. - ok
+
+W aplikacji osadź przycisk, który będzie pozwalał na otworzenie menu (pierwszy klik) oraz zamknięcie menu (kliknięcie po raz drugi). -ok
+
+Podobny przycisk osadź w komponencie NavMenu. Po jego kliknięciu menu będzie się ukrywało. -ok
+
+Modyfikacja
+Za pomocą React Router DOM dodaj kilka podstron: np. /home, /about, /contact. W komponencie NavMenu za pomocą komponentów NavLink wstaw linki do tych podstron. Jeśli któraś ze stron jest aktualnie otwarta, to niech link w NavMenu podkreśla się na czerwono. -ok
