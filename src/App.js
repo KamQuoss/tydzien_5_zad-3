@@ -15,7 +15,9 @@ export default function App() {
     <div className="App">
       <h1>Tydzień 5: Budowa interfejsu</h1>
       <h2>Zadanie 3</h2>
-      <Button onClick={handleClick}>Open Navigation</Button>
+      <Button onClick={handleClick}>
+        {isOpen ? "Close" : "Open"} Navigation
+      </Button>
       <Outlet />
       <NavMenu open={isOpen} handleClose={handleClick}>
         <NavLink to="/">Home</NavLink>
